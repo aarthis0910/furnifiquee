@@ -1,0 +1,709 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	width:100%;
+	height:100%;
+    transform: scale(1.05); /* Zoom by 20% */
+    transform-origin: top left; /* Ensure scaling starts from the top left */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	 font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+	padding-bottom:8PX;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+	padding:0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+  transition: color 0.3s ease; /* Smooth color transition */
+  border: 1px solid transparent; /* Border for hover effect */
+  border-radius: 6px; /* Add border radius */
+  
+}
+
+/* Change color on hover */
+nav a:hover {
+  color: white; /* Replace with your desired hover color */
+  background-color: #808080; /* Hover background color */
+  border-color: #808080;/* Hover border color */
+  padding:5px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+	 font-family: 'Montserrat', sans-serif;
+	 
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+	line-height:1.8
+}
+
+.buttons {
+    display: flex;
+    gap: 25px;
+}
+
+button {
+    padding: 12px 35px;
+    cursor: pointer;
+    font-size: 16px;
+
+  
+}
+
+.contact {
+    background-color: #3F716E; 
+	border-color:#3F716E;
+    color: #fff;
+	border-width:0px;
+}
+
+.about {
+    background-color: #a97a57;
+	border-color:#a97a57;
+    color: #fff;
+	border-width:0px;
+}
+
+.hero-image img {
+    max-width:870px;
+    height:520px;
+}
+.log img{
+	padding-bottom:20px;
+	padding-right:60px;
+	padding-top:16px;
+	float:right;
+	
+}
+li{
+	padding-right:130px;
+	padding-top:17px;
+}
+.buttons .contact:hover {
+	background-color: transparent;
+    border-color:#3F716E;
+	color:#3F716E; 
+	border-width:1.5px;
+}
+	.buttons .about:hover {
+	background-color: transparent;
+    border-color:#a97a57;
+	color:#a97a57; 
+	border-width:1.5px;
+}
+
+
+/*2*/
+
+
+.con {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+	background:transparent;
+	
+	
+}
+.cont{
+	padding-right:60px;
+}
+
+
+#main-head {
+    background:transparent;
+    color:black;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#fff 3px solid;
+}
+
+#main-head h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+	padding-right:65px;
+	padding-bottom:10px;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.products {
+    display: flex;
+    justify-content:center;
+    gap: 1px;
+	padding:20px;
+	
+}
+
+.product {
+            border-radius: 10px;
+          
+            padding: 15px;
+            width: 300px; 
+			    background: #fff;
+
+    margin: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	 overflow: hidden;
+
+}
+
+.product img {
+  max-width: 100%;
+    height: auto;
+	object-fit:cover;
+	border-radius:10px;
+	 transition: transform 0.3s ease;
+}
+.product:hover img {
+    transform: scale(1.2); /* Zoom in by 20% */
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product p {
+    margin: 10px 0;
+    color: #777;
+}
+
+.product .price {
+    font-size: 20px;
+    color: #333;
+}
+
+.product .buy-now {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #77aaff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product .buy-now:hover {
+    background: #555;
+}
+
+
+/*3*/
+
+.conta {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+	background:transparent;
+	padding-right:60px;
+	
+}
+
+#main-heade {
+    background:transparent;
+    color:black;
+    padding-top: 30px;
+    max-height: 100px;
+    border-bottom:#fff 3px solid;
+}
+
+#main-heade h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+	padding-right:24px;
+	padding-bottom:10px;
+}
+
+.subtitle1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.products1 {
+    display: flex;
+    justify-content:center;
+    gap: 1px;
+	padding:20px;
+	
+}
+
+.product1 {
+          border-radius: 10px;
+          
+            padding: 15px;
+            width: 300px; 
+			    background: #fff;
+
+    margin: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	 overflow: hidden;
+
+}
+.product1:hover img {
+    transform: scale(1.2); /* Zoom in by 20% */
+}
+.productt:hover img {
+    transform: scale(1.2); /* Zoom in by 20% */
+}.productc:hover img {
+    transform: scale(1.2); /* Zoom in by 20% */
+}
+
+
+.product1 img {
+  max-width: 100%;
+    height: auto;
+	object-fit:cover;
+	border-radius:10px;
+	transition: transform 0.3s ease;
+}
+
+.product1 h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product1 p {
+    margin: 10px 0;
+    color: #777;
+}
+
+.product1 .price {
+    font-size: 20px;
+    color: #333;
+}
+
+.product1 .buy-now {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #77aaff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product1 .buy-now:hover {
+    background: #555;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 155px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+	max-height:auto;
+	max-width:1000px;
+}
+
+.about-image {
+    flex: 1;
+    padding: 20px;
+	   overflow: hidden;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+	  transition: transform 0.3s ease;
+}
+.about-image:hover img {
+    transform: scale(1.2); /* Zoom in by 20% */
+}
+
+.about-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #77aaff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+#read-more:hover {
+	background-color: transparent;
+    border-color: #5599dd;
+	color: #5599dd;
+	border-width:6px;
+}
+#read-more {
+    background-color: #5599dd;
+	border-color:#5599dd;
+    color: #fff;
+	border-width:0px;
+}
+
+/*5*/
+
+
+#main-header {
+    background: #333;
+    color: #000;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #fff 3px solid;
+	background:#fff;
+}
+
+#main-header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 26px;
+	padding-top:5px;
+	padding-left:570px;
+
+	
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+	width:95%;
+}
+
+.blog {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 30%;
+}
+
+.blog img {
+    width: 100%;
+    height: auto;
+	transition: transform 0.3s ease;
+}
+.blog img:hover {
+  transform: scale(1.1); /* Zoom the image by 10% */
+}
+
+.blog h2 {
+    font-size: 20px;
+    color: #000;
+	font-weight:bold;
+}
+
+.blog p {
+    font-size: 14px;
+    color: #666;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background: #0779e4;
+    color: #fff;
+    text-decoration: none;
+	border-color: #0779e4;
+	 border-width:0px;
+	
+    
+}
+.blog .read-more:hover {
+    background-color:transparent;
+	 border-color:#0779e4;
+	 color:#0779e4;
+	 border-width:1px;
+}
+
+
+/*6*/
+
+
+
+.testimonial-container {
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 70px 250px;
+    text-align: center;
+}
+
+.testimonial-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.testimonial img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 8px solid #4fc3f7;
+    margin-right: 20px;
+}
+
+.testimonial-text {
+    text-align: left;
+}
+
+.testimonial-text h3 {
+    font-size: 18px;
+    color: #4fc3f7;
+    margin-bottom: 10px;
+}
+
+.testimonial-text p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    background-color: #4fc3f7;
+    color: white;
+    border: none;
+    padding: 20px 23px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.controls button:hover {
+    background-color:black;
+}
+
+
+/*7*/
+/* Container for form and map */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Space between form and map */
+    padding: 20px;
+}
+
+/* Form styles */
+.form-container {
+    flex: 1; /* Form takes equal space as the map */
+    max-width: 600px; /* Set a max width for the form */
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between input fields */
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    background-color: #5fc1b0;
+    color: white;
+    cursor: pointer;
+	width:620px;
+    font-size: 16px;
+	padding-right:30px;
+	 border: 1px solid #ccc;
+	  border-radius: 5px;
+}
+
+.form-container button:hover {
+    background-color: #4da899;
+}
+
+/* Map styles */
+.map-container {
+    flex: 1; /* Map takes equal space as the form */
+    max-width: 730px; /* Set a max width for the map */
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 400px; /* Set map height */
+    border: none;
+}
+
+.form-container h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+/*8*/
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+.footer div {
+    flex: 1;
+    margin: 10px;
+}
+.footer div h3 {
+    color: #ffffff;
+}
+.footer div ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer div ul li {
+    margin: 5px 0;
+}
+.footer div ul li a {
+    color: #ffffff;
+    text-decoration: none;
+	padding-left:32px;
+		transition: transform 0.3s ease;
+}
+.footer div ul li a:hover {
+  transform: scale(1.2); /* Zoom the image by 10% */
+  color: #ff6600;
+}
+
+.footer .contact-info {
+    text-align: center;
+	color:#ff6600;
+	padding-top:95px;
+	padding-right:40px;
+}
+.footer .contact-info p {
+    margin: 5px 0;
+}
+.footer .newsletter input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+}
+.footer .newsletter button {
+    padding: 10px 20px;
+    background-color: #00b3b3;
+    border: none;
+    color: #ffffff;
+}
+.footer .newsletter button:hover {
+	background-color: transparent;
+    border-color:#00b3b3;
+	color:#00b3b3; 
+	border-width:4px;
+}
+.footer .instagram-feeds img {
+    width: 65px;
+    height: 60px;
+    margin: 8px;
+	background-color:white;
+		transition: transform 0.3s ease;
+}
+.footer .instagram-feeds img:hover {
+  transform: scale(1.3); /* Zoom the image by 10% */                                                   
+}
+
+.footer .instagram-feeds{
+	position: relative; /* Allows positioning relative to its container */
+  left: -20px; /* Adjust this value to */
+}
+.instagram-feeds h3{
+	padding-left:36px;
+}
